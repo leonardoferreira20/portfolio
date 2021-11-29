@@ -1,0 +1,53 @@
+$backgroundColor: #EFE0BC;
+$headerTextColor: #C8B588;
+$titleColor: #DCBB6D;
+$subTitleColor: #4E4C45;
+
+header {
+    background-color: $backgroundColor;
+    position: fixed;
+    width: 100%;
+    box-shadow: 10px 10px 10px 10px $backgroundColor;
+}
+
+.nav-bar {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: 13vh;
+    align-items: center;
+}
+
+.container-title {
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    color: $headerTextColor;
+    letter-spacing: 2px;
+}
+
+nav {
+    flex: 1;
+}
+
+.nav-links {
+    float: right;
+    color: $headerTextColor;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    .nav-link {
+        margin: 10px 0;
+    }
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+    background-color: $backgroundColor;
+    box-shadow: 10px 10px 10px 10px black;
+}
